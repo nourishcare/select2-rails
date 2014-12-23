@@ -3502,7 +3502,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
             return true;
         },
-        minimumTimeOpen: 250 // milliseconds the menu must remain open before closing
+        minimumTimeOpen: 1000 // milliseconds the menu must remain open before closing
     };
 
     $.fn.select2.locales = [];
